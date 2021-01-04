@@ -14,8 +14,8 @@ while True:
     if followers > oldFollowers and (len(str(followers)) == len(str(oldFollowers)) if oldFollowers != 0 else True):
 
         if oldFollowers == 0:
-
             print("Starting amount of followers: ", followers)
+            
         else:
             print("New Follower. Now: ", followers)
 
