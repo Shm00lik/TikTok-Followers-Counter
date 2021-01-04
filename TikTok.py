@@ -1,5 +1,7 @@
 from selenium import webdriver
 
+print(f"{'=' * 25} Made By Shmoolik#4454 (Discord) {'=' * 25} \n\n")
+
 username = input("Username: ")
 
 driver = webdriver.Chrome()
